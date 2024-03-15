@@ -1,0 +1,157 @@
+repo_name: ctavolazzi/dmcli
+report_id: fa0529a03ea90f9123f8db61385e24d9
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-15T02:00:29+00:00'
+requested_by: RobertTate
+provider: github
+branch: main
+detected_tools_count: 11
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ctavolazzi/dmcli
+  detection_source: Repo Metadata
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/ctavolazzi/dmcli/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: RobertTate
+  last_updated_on: 2021-06-13 17:12:01.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ctavolazzi/dmcli
+  detection_source: Repo Metadata
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/ctavolazzi/dmcli/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: RobertTate
+  last_updated_on: 2021-06-13 17:12:01.000000000 Z
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/ctavolazzi/dmcli/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: RobertTate
+  last_updated_on: 2021-07-28 14:45:35.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 4.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/ctavolazzi/dmcli/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: RobertTate
+  last_updated_on: 2021-07-28 14:45:35.000000000 Z
+- name: fuzzy
+  description: Small, standalone fuzzy search / fuzzy filter
+  package_url: https://www.npmjs.com/fuzzy
+  version: 0.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18189/default_13969c5d2859d7d510fdef0e78c273ae025e9cc4.png
+  detection_source_url: https://github.com/ctavolazzi/dmcli/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Robert Tate
+  last_updated_on: 2021-08-22 17:50:59.000000000 Z
+- name: inquirer
+  description: A collection of common interactive command line user interfaces
+  package_url: https://www.npmjs.com/inquirer
+  version: 8.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15911/default_4dc9671df0093fd7061f6455afdf054e6cc9dacb.png
+  detection_source_url: https://github.com/ctavolazzi/dmcli/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Robert Tate
+  last_updated_on: 2021-08-22 17:50:59.000000000 Z
+- name: inquirer-autocomplete-prompt
+  description: Autocomplete prompt for inquirer
+  package_url: https://www.npmjs.com/inquirer-autocomplete-prompt
+  version: 1.4.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17746/default_148ef251371a47f69a7acad9f3b25e2ec2ee4aa4.png
+  detection_source_url: https://github.com/ctavolazzi/dmcli/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Robert Tate
+  last_updated_on: 2021-08-22 17:50:59.000000000 Z
+- name: node-fetch
+  description: A light-weight module that brings window.fetch to node.js
+  package_url: https://www.npmjs.com/node-fetch
+  version: 2.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/ctavolazzi/dmcli/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Robert Tate
+  last_updated_on: 2021-08-22 17:50:59.000000000 Z
+  vulnerabilities:
+  - name: node-fetch forwards secure headers to untrusted sites
+    cve_id: CVE-2022-0235
+    cve_url: https://github.com/advisories/GHSA-r683-j2x4-v87g
+    detected_date: Jan 22
+    severity: high
+    first_patched: 2.6.7
+- name: open
+  description: Open stuff like URLs, files, executables. Cross-platform
+  package_url: https://www.npmjs.com/open
+  version: 8.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16245/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
+  detection_source_url: https://github.com/ctavolazzi/dmcli/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Robert Tate
+  last_updated_on: 2021-08-22 17:50:59.000000000 Z
